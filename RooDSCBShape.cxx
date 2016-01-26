@@ -107,7 +107,7 @@ RooDSCBShape::RooDSCBShape(const char *name, const char *title,
     }
     else //They are at the same side of zero
     {
-      return rootPiBy2 * ( TMath::Erf(TMath::Abs(x1) / TMath::Sqrt2()) - TMath::Erf(TMath::Abs(x0) / TMath::Sqrt2()) );
+      return rootPiBy2 * TMath::Abs( TMath::Erf(TMath::Abs(x1) / TMath::Sqrt2()) - TMath::Erf(TMath::Abs(x0) / TMath::Sqrt2()) );
     }
 
   }
