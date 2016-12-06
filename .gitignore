@@ -3,10 +3,15 @@
 *.lo
 *.o
 *.obj
+*.so.1.0
 
 # Precompiled Headers
 *.gch
 *.pch
+
+# CINT Dictionaries
+*Dict.cxx
+*_rdict.pcm
 
 # Compiled Dynamic libraries
 *.so
@@ -26,3 +31,6 @@
 *.exe
 *.out
 *.app
+
+# emacs compatibility
+*~
