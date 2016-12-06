@@ -27,7 +27,7 @@ You can then include things in your pyroot macros as e.g.
 
 ```
 import ROOT
-ROOT.gSystem.Load('DoubleCB/libRooDSCBShape.so')
+ROOT.gSystem.Load('RooCustomPdfs/libRooDSCBShape.so')
 from ROOT import RooDSCBShape
 ```
 
