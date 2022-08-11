@@ -7,10 +7,10 @@
 #ifndef RooGausDExp_hpp
 #define RooGausDExp_hpp
 
-#include <RooAbsPdf.h>
-#include <RooRealProxy.h>
-#include <RooCategoryProxy.h>
-#include <RooAbsReal.h>
+#include "RooAbsPdf.h"
+#include "RooRealProxy.h"
+#include "RooCategoryProxy.h"
+#include "RooAbsReal.h"
 
 #define _AN_INT_
 
